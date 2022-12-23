@@ -1,5 +1,12 @@
 #!/usr/bin/python3
+"""
+0-pascal_triangle.py
+"""
 def pascal_triangle(n):
+    """
+    Method: function to print the pascal triangle of the integer
+    Args: (n) this is the input integer
+    """
     res = [[1]]
     for i in range(n - 1):
         temp = [0] + res[-1] + [0]
