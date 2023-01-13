@@ -24,4 +24,4 @@ def minOperations(n):
     occurences = {item: factors.count(item) for item in factors}
     for k, v in occurences.items():
         min += k * v
-    return 
+    return min 
