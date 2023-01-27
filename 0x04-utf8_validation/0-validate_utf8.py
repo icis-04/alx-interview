@@ -28,5 +28,5 @@ def validUTF8(data):
                 return False
             j += 1
         i = i + numOfBytes - 1
-        i++
+        i += 1
     return True
