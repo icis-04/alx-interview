@@ -4,7 +4,8 @@
 
 def validUTF8(data):
     """function to validate utf-8  characters"""
-    for i in range(0, len(data)):
+    i = 0
+    while i < len(data):
         numOfBytes = 0
         val = data[i]
         if val >= 255:
@@ -27,4 +28,5 @@ def validUTF8(data):
                 return False
             j += 1
         i = i + numOfBytes - 1
+        i++
     return True
