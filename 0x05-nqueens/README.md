@@ -1,0 +1,1 @@
+Nqueens solution in python 
