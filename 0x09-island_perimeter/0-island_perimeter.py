@@ -14,7 +14,7 @@ def island_perimeter(grid):
         if i >= len(grid) or j >= len(grid[0]) or \
         i < 0 or j < 0 or grid[i][j] == 0:
             return 1
-        if (i,j) in vector:
+        if (i, j) in vector:
             return 0
 
         vector.add((i, j))
