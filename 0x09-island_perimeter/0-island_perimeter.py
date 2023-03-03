@@ -5,7 +5,8 @@
 def island_perimeter(grid):
     """ function to calculate the perimeter of the grid
     """
-    vector = set() #To keep track of paths checked
+    vector = set() 
+    """To keep track of paths checked"""
 
     def dfs(i, j):
         """applying depth first search
